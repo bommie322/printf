@@ -1,17 +1,15 @@
 #include "main.h"
 
 /**
- * get_flag - turns on flags if _printf finds
+ * get_flag - turns on if _printf finds
  *
- * a flag modifier in the format string
+ * a modifier in the format string
  *
  * @s: character that holds the flag specifier
  *
- * @f: pointer to the struct flags in which we turn the flags on
+ * @f: pointer to the struct in which we turn the flagging on
  *
- *
- *
- * Return: 1 if a (flag) has been turned on, 0 otherwise
+ * Return: 1 if turned on, 0 otherwise
  *
  */
 int get_flag(char s, flags_t *f)
